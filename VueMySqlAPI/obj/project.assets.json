@@ -2567,11 +2567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nickn\\VS2022NET_CORE_PROJ\\VueMySqlAPI\\VueMySqlAPI.csproj",
+      "projectUniqueName": "C:\\Users\\nickn\\VS2022NET_CORE_PROJ\\VueJS---ASP.NET---MySQL-Web-App\\VueMySqlAPI\\VueMySqlAPI.csproj",
       "projectName": "VueMySqlAPI",
-      "projectPath": "C:\\Users\\nickn\\VS2022NET_CORE_PROJ\\VueMySqlAPI\\VueMySqlAPI.csproj",
+      "projectPath": "C:\\Users\\nickn\\VS2022NET_CORE_PROJ\\VueJS---ASP.NET---MySQL-Web-App\\VueMySqlAPI\\VueMySqlAPI.csproj",
       "packagesPath": "C:\\Users\\nickn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nickn\\VS2022NET_CORE_PROJ\\VueMySqlAPI\\obj\\",
+      "outputPath": "C:\\Users\\nickn\\VS2022NET_CORE_PROJ\\VueJS---ASP.NET---MySQL-Web-App\\VueMySqlAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nickn\\AppData\\Roaming\\NuGet\\NuGet.Config",

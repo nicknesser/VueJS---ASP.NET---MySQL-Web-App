@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OGHlCJF/2/kOKYEgLcB5N6tj7+UYjTK/7I5uge8Z+wgJKycB1WW8ryYw8FFk7mX9D8WxAt5/jblXDGh7g1bP1Q==",
+  "dgSpecHash": "z8X67OmaoJ5gKFfSNMZ+6duS+f5ZD8QIRuup6GISpFtnKIaYGh289msnqhxw8SlcoSVwIdd7xC69XmClsjlUvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nickn\\VS2022NET_CORE_PROJ\\VueMySqlAPI\\VueMySqlAPI.csproj",
+  "projectFilePath": "C:\\Users\\nickn\\VS2022NET_CORE_PROJ\\VueJS---ASP.NET---MySQL-Web-App\\VueMySqlAPI\\VueMySqlAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nickn\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\nickn\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
