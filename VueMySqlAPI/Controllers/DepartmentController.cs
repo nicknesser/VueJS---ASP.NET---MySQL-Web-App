@@ -3,6 +3,7 @@ using MySql.Data.MySqlClient;
 using System.Data;
 using VueMySqlAPI.Models;
 
+//Commit test 3
 namespace VueMySqlAPI.Controllers
 {
     [Route("api/[controller]")]
