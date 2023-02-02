@@ -124,3 +124,4 @@ C:\Users\nickn\VS2022NET_CORE_PROJ\VueJS---ASP.NET---MySQL-Web-App\VueMySqlAPI\o
 C:\Users\nickn\VS2022NET_CORE_PROJ\VueJS---ASP.NET---MySQL-Web-App\VueMySqlAPI\obj\Debug\net6.0\VueMySqlAPI.pdb
 C:\Users\nickn\VS2022NET_CORE_PROJ\VueJS---ASP.NET---MySQL-Web-App\VueMySqlAPI\obj\Debug\net6.0\VueMySqlAPI.genruntimeconfig.cache
 C:\Users\nickn\VS2022NET_CORE_PROJ\VueJS---ASP.NET---MySQL-Web-App\VueMySqlAPI\obj\Debug\net6.0\ref\VueMySqlAPI.dll
+C:\Users\nickn\VS2022NET_CORE_PROJ\VueJS---ASP.NET---MySQL-Web-App\VueMySqlAPI\bin\Debug\net6.0\appsettings.Development.json
