@@ -1,5 +1,8 @@
+
+//NEED TO USE BACKTICK ` HERE NOT APOS '
 const department={template:`
 
+<div>
 <table class="table table-striped">
 <thead>
     <tr>
@@ -13,6 +16,7 @@ const department={template:`
             Options
         </th>
     </tr>
+</thead>
 <tbody>
     <tr v-for="dep in departments">
         <td>{{dep.DepartmentId}}</td>
@@ -36,11 +40,47 @@ const department={template:`
 </tbody>
 </thead>
 </table>
+
+<div class="modal fade" id="exampleModal" tabindex="-1"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered">
+<div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{modalTitle}}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"
+        aria-label="Close"></button>
+    </div>
+
+    <div class="modal-body">
+
+        <div class="input-group mb-3">
+            <!--add text box for department Name-->
+            <span class="input-group-text">Department Name</span>
+            <input type="text" class="form-control" v-model="DepartmentName">
+        </div>
+
+        <!--create buttons for new department and update dep-->
+
+        <button type="button"
+        v-if="DepartmentId==0" class="btn btn-primary">
+
+
+    </div>
+
+</div>
+</div>
+</div>
+
+</div>
+
 `,
 
 data(){
     return{
-        departments:[]
+        departments:[],
+        modalTitle:"",
+        DepartmentName,
+        DepartmentId:0
     }
 },
 
