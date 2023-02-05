@@ -218,7 +218,7 @@ methods:{
         let formData=new FormData();
         formData.append('file',event.target.files[0]);
         axios.post(
-            variables.API_URL+"/Employee/savefile",
+            variables.API_URL+"/Employee/SaveFile",
             formData)
             .then((response)=>{
                 this.PhotoFileName=response.data;
