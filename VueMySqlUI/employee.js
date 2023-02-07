@@ -161,7 +161,7 @@ methods:{
         this.EmployeeName="";
         this.Department="";
         this.DateOfJoining="";
-        this.PhotoFileName="anonymous.png";
+        this.PhotoFileName="";
     },
     //Create edit Employee button (pencil-square) style with css
     editClick(emp){
@@ -204,7 +204,7 @@ methods:{
     deleteClick(id){
         if(!confirm("Are you sure?")){
             return;
-        }
+      method  }
         //Add delete function to trash css button, needed to add "s" to end of id for correct URL, need to research why that was.
         axios.delete(variables.API_URL+"/Employee/"+id+"s")
         .then((response)=>{
