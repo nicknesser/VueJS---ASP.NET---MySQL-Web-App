@@ -1,4 +1,4 @@
-This is a simple web app for an Employee Management Portal created using ASP.NET 6, Vue3 and MySQL (local instance - not Azure hosted). 
+This is a simple web app for an Employee Management Portal created using ASP.NET 6, Vue3 and MySQL (local instance/server - not Azure hosted). 
 This app was built using swagger in Visual Studio 2022, then building the UI in VS Code 2022 with Axios/Vue3/bootstrap.
 Hope this helps, this project was a great way to get my hands into developing a full-stack app.
 
