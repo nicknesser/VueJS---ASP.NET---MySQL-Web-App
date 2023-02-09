@@ -16,9 +16,23 @@ Add Department
 <thead>
     <tr>
         <th>
+            <!--<div class="d-flex flex-row">
+
+            <input class="form-control m-2"
+                v-model="DepartmentIdFilter"
+                v-on:keyup="FilterFn()"
+                placeholder="Filter">
+            </div>-->
             DepartmentId
         </th>
         <th>
+            <!--<div class="d-flex flex-row">
+
+            <input class="form-control m-2"
+                v-model="DepartmentNameFilter"
+                v-on:keyup="FilterFn()"
+                placeholder="Filter">
+            </div>-->
             DepartmentName
         </th>
         <th>
@@ -101,7 +115,10 @@ data(){
         departments:[],
         modalTitle:"",
         DepartmentName:"",
-        DepartmentId:0
+        DepartmentId:0,
+        DepartmentNameFilter:"",
+        DepartmentIdFilter:"",
+        departmentsWithoutFilter:[]
     }
 },
 
@@ -111,6 +128,7 @@ methods:{
         axios.get(variables.API_URL+"/Department")
         .then((response)=>{
             this.departments = response.data;
+            this.departmentsWithoutFilter=response.data;
         });
     },
     //Create Add Department button - style with css
@@ -159,7 +177,22 @@ methods:{
             alert(response.data);
         });
 
-    }
+    },
+     //messed with filter functionality, need to learn more how to implement in Vue3
+    /*FilterFn(){
+        var DepartmentIdFilter=this.DepartmentIdFilter + "";
+        var DepartmentNameFilter=this.DepartmentNameFilter + "";
+
+        this.departments=this.departmentsWithoutFilter + "";
+           
+                return DepartmentId.filter((DepartmentIdFilter.toString().trim().toLowerCase())
+                    
+                )&&
+                DepartmentName.filter((DepartmentNameFilter.toString().trim().toLowerCase()))
+                
+            
+            
+    },*/
 
 },
 
