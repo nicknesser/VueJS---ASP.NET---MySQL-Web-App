@@ -1,1 +1,1 @@
-const home={template:'<h1>This is Home</h1>'} 
+const home={template:'<h1>This is a simple web app for an Employee Management Portal created using ASP.NET 6, Vue3 and MySQL (local instance - not Azure hosted). This app was built using swagger in Visual Studio 2022, then building the UI in VS Code 2022 with Axios/Vue3/bootstrap</h1>'} 
