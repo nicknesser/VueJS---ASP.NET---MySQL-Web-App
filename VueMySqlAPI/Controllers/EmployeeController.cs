@@ -176,7 +176,7 @@ namespace VueMySqlAPI.Controllers
 
 
 
-        
+        //Post a photo to the Photos folder
         [HttpPost]
         [Route("SaveFile")]
 
@@ -203,6 +203,34 @@ namespace VueMySqlAPI.Controllers
                 return new JsonResult("anonymous.png");
             }
         }
+        //Get method to retrieve photo to display 
+        /*[HttpGet]
+
+        public JsonResult GetPhoto()
+        {
+            //using raw query, can use stored procedures here or EF
+            string query = @"
+            select PhotoFileName from 
+            vjsnetmysql.Employee where EmployeeId = @EmployeeId;";
+
+            DataTable table = new DataTable();
+            string sqlDataSource = _configuration.GetConnectionString("EmployeeAppCon");
+            MySqlDataReader myReader;
+            using (MySqlConnection mycon = new MySqlConnection(sqlDataSource))
+            {
+                mycon.Open();
+                using (MySqlCommand myCommand = new MySqlCommand(query, mycon))
+                {
+                    myReader = myCommand.ExecuteReader();
+                    table.Load(myReader);
+
+                    myReader.Close();
+                    mycon.Close();
+                }
+            }
+
+            return new JsonResult(table);
+        }*/
 
 
 

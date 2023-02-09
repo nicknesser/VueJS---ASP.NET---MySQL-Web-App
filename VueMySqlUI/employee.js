@@ -98,7 +98,7 @@ Add Employee
         </div>
         <!--display profile picture-->
         <div class="p-2 w-50 bd-highlight">
-            <img width="250px" height="250x"
+            <img width="250px" height="250px"
                 :src="PhotoPath+PhotoFileName"/>
             <input class="m-2" type="file" @change="imageUpload">
         </div>
@@ -138,7 +138,9 @@ data(){
         DateOfJoining:"",
         PhotoFileName:"anonymous.png",
         PhotoPath:variables.PHOTO_URL
-        
+       /* attachmentRecord: [{
+            id: 1
+        }]*/
     }
 },
 
@@ -224,6 +226,25 @@ methods:{
                 this.PhotoFileName=response.data;
             })
     }
+
+    /*imageGet(EmployeeId){
+        axios.get(PhotoPath+PhotoFileName)
+        .then((response)=>{
+            this.employees = response.data;
+        });
+    }*/
+
+    
+        /*getAttachmentFromTask(attachmentIndex, attachmentID) {
+          let record = this.attachmentRecord[attachmentIndex];
+          if (!record.data) {
+            Vue.set(record, 'data', null);
+            axios.get('https://kunden.48design.de/stackoverflow/image-base64-api-mockup.json').then((result) => {
+              Vue.set(record, 'data', result.data);
+            });
+          }
+          return this.attachmentRecord[attachmentIndex].data;
+        }*/
 
 },
 
